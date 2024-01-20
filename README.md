@@ -1,7 +1,3 @@
-Certainly! Below is a basic README file for your Selenium project:
-
----
-
 # Universitas Airlangga Questionnaire AutoFill
 
 ## Overview
