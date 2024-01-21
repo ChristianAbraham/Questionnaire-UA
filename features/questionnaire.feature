@@ -1,7 +1,6 @@
 Feature: questionnaire
     Scenario: Questionnaire
     Given i am on SignIn Page
-    #change username and password with your username and password
     When i fill in username field with username 
     And i fill in password field with password
     And i press SignIn button
