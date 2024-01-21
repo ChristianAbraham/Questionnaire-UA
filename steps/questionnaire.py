@@ -9,11 +9,11 @@ def step_impl(context):
 
 @when("i fill in username field with username")
 def step_impl(context):
-    context.browser.find_element(By.XPATH, '//*[@id="userid"]').send_keys("ganti dengan nim anda")
+    context.browser.find_element(By.XPATH, '//*[@id="userid"]').send_keys("isi nim disini")
 
 @when("i fill in password field with password")
 def step_impl(context):
-    context.browser.find_element(By.XPATH, '//*[@id="password"]').send_keys("ganti dengan password anda")
+    context.browser.find_element(By.XPATH, '//*[@id="password"]').send_keys("password siber disini")
 
 @when("i press SignIn button")
 def step_impl(context):
@@ -62,7 +62,7 @@ def step_impl(context):
 
 @when("i chose dosen")
 def step_impl(context):
-    context.browser.find_element(By.XPATH, '//*[@id="dosen"]/option[2]').click()
+    context.browser.find_element(By.XPATH, '/html/body/div/div[2]/div[2]/div/div/form/div[15]/select/option[2]').click()
 
 @when("i press button simpan")
 def step_impl(context):
